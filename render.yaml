@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: music-album-dashboard
+    env: node
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./build
