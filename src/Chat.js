@@ -254,7 +254,7 @@ export default function Chat() {
         chat_history: convertMessagesToChatHistory(),
       };
 
-      const response = await fetch("http://127.0.0.1:8000/chat", {
+      const response = await fetch("https://inventory-dashboard-with-mysqlchat-server.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
