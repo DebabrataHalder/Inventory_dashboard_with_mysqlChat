@@ -18,7 +18,7 @@ app = FastAPI(title="Chat with MySQL API")
 # Configure CORS using environment variables
 from fastapi.middleware.cors import CORSMiddleware
 
-allowed_origins = os.environ.get("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+allowed_origins = os.environ.get("ALLOWED_ORIGINS", "http://localhost:3000,https://inventory-dashboard-with-mysqlchat.onrender.com").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
