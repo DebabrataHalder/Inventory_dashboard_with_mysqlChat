@@ -202,7 +202,7 @@ export default function Chat() {
 
   const testConnection = async () => {
     setIsTesting(true);
-    setConnectionStatus('Connection...');
+    setConnectionStatus('Building connection with MySQL DB');
     try {
       const payload = {
         ...credentials,
