@@ -202,12 +202,12 @@ export default function Chat() {
 
   const testConnection = async () => {
     setIsTesting(true);
-    setConnectionStatus('Testing connection...');
+    setConnectionStatus('Connection...');
     try {
       const payload = {
         ...credentials,
         model_name: "llama-3.3-70b-versatile",
-        question: "Test connection",
+        question: "Connect with DB",
         chat_history: [
           { role: "AI", content: "Hello! I'm a SQL assistant. Ask me anything about your database." }
         ],
