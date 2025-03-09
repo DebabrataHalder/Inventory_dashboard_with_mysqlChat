@@ -312,7 +312,7 @@ export default function Chat() {
         onChange={(e) => setCredentials({ ...credentials, database: e.target.value })}
       />
       <button style={testButtonStyles} onClick={testConnection} disabled={isTesting}>
-        {isTesting ? "Testing..." : "Test Connection"}
+        {isTesting ? "Connecting..." : "Connect with DB"}
       </button>
       {connectionStatus && <p>{connectionStatus}</p>}
     </div>
