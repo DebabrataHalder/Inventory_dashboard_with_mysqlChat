@@ -169,11 +169,11 @@ export default function Chat() {
   const [isOpen, setIsOpen] = useState(false);
   const [isConnected, setIsConnected] = useState(false);
   const [credentials, setCredentials] = useState({
-    host: 'mysql-1032ed4a-devhalder321-821fresumemysql.c.aivencloud.com',
-    port: '24736',
-    user: 'avnadmin',
-    password: 'AVNS_Kj2t4KfURIQWNcExquL',
-    database: 'defaultdb',
+    host: 'sql12.freesqldatabase.com',
+    port: '3306',
+    user: 'sql12770829',
+    password: '2ymFE3pAMm',
+    database: 'sql12770829',
   });
   const [connectionStatus, setConnectionStatus] = useState('');
   const [isTesting, setIsTesting] = useState(false);
