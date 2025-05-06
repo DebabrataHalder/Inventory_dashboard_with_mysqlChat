@@ -171,9 +171,9 @@ export default function Chat() {
   const [credentials, setCredentials] = useState({
     host: 'sql12.freesqldatabase.com',
     port: '3306',
-    user: 'sql12775338',
-    password: 'GgDbnUhql4',
-    database: 'sql12775338',
+    user: 'sql12777203',
+    password: 'X9i6V3VHpe',
+    database: 'sql12777203',
   });
   const [connectionStatus, setConnectionStatus] = useState('');
   const [isTesting, setIsTesting] = useState(false);
